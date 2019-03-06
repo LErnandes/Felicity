@@ -1,0 +1,12 @@
+﻿<Window x:Class="Interface_Felicity.Dialogo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interface_Felicity"
+        mc:Ignorable="d"
+        Title="Diálogos" Icon="Felicity.ico" Height="363.312" Width="533.766" WindowStyle="ThreeDBorderWindow" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="Black" Cursor="Arrow">
+    <Grid Background="#FFF5F5A2">
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.587,-0.304" FontFamily="MV Boli" FontSize="17" Height="313" Width="506" Foreground="Black" FontWeight="Bold"><Run Text="Oi"/><Run Text="                         "/><Run Text="  "/><Run Text="O que você acha da Microsoft?"/><LineBreak/><Run Text="Conte uma "/><Run Text="charada"/><LineBreak/><Run Text="Quem é você?&#x9;"/><Run Text="&#x9;    "/><Run Text="  "/><Run Text="O que você acha da Apple?             "/><LineBreak/><Run Text="O que você faz?&#x9;            &#x9;"/><LineBreak/><Run Text="Como vai você?&#x9;"/><Run Text="            "/><Run Text="  "/><Run Text="O que você acha do Linux?"/><LineBreak/><Run Text="Vou bem                    "/><LineBreak/><Run Text="Vou mal&#x9;    "/><Run Text="                "/><Run Text="  "/><Run Text="O que você acha do Ampere?"/><LineBreak/><Run Text="Em que linguagem você é feita?"/><LineBreak/><Run Text="Quem fez você"/><Run Text="?             "/><Run Text="  "/><Run Text="O que você acha do Wall-E?"/><LineBreak/><Run Text="Você é minha amiga?"/><LineBreak/><Run Text="Eu sou seu pai"/><Run Text="              "/><Run Text="  "/><Run Text="O que você acha da Pixar?"/><LineBreak/><Run/><Run Text="&#x9;    "/></TextBlock>
+    </Grid>
+</Window>

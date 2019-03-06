@@ -1,0 +1,17 @@
+﻿<Window x:Class="Interface_Felicity.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interface_Felicity"
+        mc:Ignorable="d"
+        Title="Felicity" Icon="Felicity.ico" Height="346.591" Width="518.182" WindowStartupLocation="CenterScreen" Background="Black" ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow" Cursor="Arrow"
+>
+    <Grid Margin="0,0,-8,0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="319" Width="525" KeyDown="OnKeyDownHandler" Background="#FFF5F5A2" OpacityMask="Black">
+        <TextBox x:Name="tx_1" Height="30" Margin="40,241,46,48" TextWrapping="Wrap" VerticalAlignment="Center" Width="439" HorizontalAlignment="Center" FontSize="20" Foreground="Black" Background="White"/>
+        <TextBlock x:Name="lb1" HorizontalAlignment="Left" Margin="40,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="144" Width="439" FontFamily="MV Boli" FontSize="24" TextAlignment="Center" Foreground="Black" FontWeight="Bold"/>
+        <Button Content="Ajuda" HorizontalAlignment="Left" Margin="414,17,0,0" VerticalAlignment="Top" Width="76" PreviewMouseLeftButtonUp="bt_click" FontFamily="PT Serif" Height="23"/>
+        <Button x:Name="Dialog" Content="Diálogos" HorizontalAlignment="Left" Margin="320,17,0,0" VerticalAlignment="Top" Width="75" PreviewMouseLeftButtonUp="Dialogos" FontFamily="MV Boli"/>
+        <Button Content="Som" HorizontalAlignment="Left" Margin="28,17,0,0" VerticalAlignment="Top" Width="74" PreviewMouseLeftButtonUp="Mudar_Som" FontFamily="PT Serif" Height="23" RenderTransformOrigin="0.574,1.949"/>
+    </Grid>
+</Window>
